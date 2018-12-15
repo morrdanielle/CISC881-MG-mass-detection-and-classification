@@ -6,6 +6,6 @@ This repository contains code that was used for computer-aided detection and dia
 
 2-Segment_Crop.m: This program loops through the MG .tiff files, performing preprocessing steps to remove noise, segmentation to detect the mass ROI, and cropping of the image around this ROI.
 
-3-Create_Arrays.py: Includes functions to create arrays for the cropped test images and for the cropped training images, which are then concatentate (training+test) and the 3D image array is optimized for zero mean and unit variance. The optimized image array and pathology array are then saved.
+3-Create_Arrays.py: Includes functions to create arrays for the cropped test images and for the cropped training images, which are then concatentated (training+test) and the 3D image array is optimized for zero mean and unit variance. The optimized image array and pathology array are then saved.
 
 4-CNN_model.ipynb: A convolutional neural network used to predict pathology of the tumours as either 1 (malignant) or 0 (benign) 
