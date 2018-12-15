@@ -2,7 +2,7 @@
 
 This repository contains code that was used for computer-aided detection and diagnosis of mass lesions in mammograms from the CBIS-DDSM collection in The Cancer Imaging Archive. The file description and order of execution are listed below:
 
-1-Maneuver_Files.py: Take all the MG images downloaded directly from TCIA, renames them based on patient name/breast view (ex: Mass-Test_P_00369_LEFT_CC.dcm) and moved them to a common folder. It also converts the dcm extension to tif. This makes looping through files much easier and simplifies the next few files of code.
+1-Maneuver_Files.py: Takes all the MG images downloaded directly from TCIA, renames them based on patient name/breast view (ex: Mass-Test_P_00369_LEFT_CC.dcm) and moves them to a common folder. It also converts the dcm extension to tif. This makes looping through files much easier and simplifies the next few files of code.
 
 2-Segment_Crop.m: This program loops through the MG .tiff files, performing preprocessing steps to remove noise, segmentation to detect the mass ROI, and cropping of the image around this ROI.
 
