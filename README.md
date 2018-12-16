@@ -8,4 +8,4 @@ This repository contains code that was used for computer-aided detection and dia
 
 3-Create_Arrays.py: Includes functions to create arrays for the cropped test images and for the cropped training images, which are then concatentated (training+test) and the 3D image array is optimized for zero mean and unit variance. The optimized image array and pathology array are then saved.
 
-4-CNN_model.ipynb: A convolutional neural network used to predict pathology of the tumours as either 1 (malignant) or 0 (benign) 
+4-CNN_model.ipynb: A convolutional neural network used to predict pathology of the tumours as either 1 (malignant) or 0 (benign).
